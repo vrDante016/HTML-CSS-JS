@@ -20,6 +20,10 @@ body{
 .flex{
     display: flex;
 }
+.flex2{
+    display: flex;
+
+}
 /**INICIO DO HEADER**/ 
 
 header{
@@ -134,4 +138,35 @@ section.topo_do_site .flex .fotominha img{
 }
 .listaapp nav ul li{
     margin-right: 0px;
+}
+/**Formulario**/
+section.entreemcontato {
+    padding: 80px auto;
+    
+    
+}
+
+section.entreemcontato form.formulario {
+    margin: 300px auto;
+    width: 80%;
+    margin-bottom: 50px; 
+    align-items: center;
+    justify-content: center;/* Adiciona margem na parte inferior do formulário */
+}
+
+section.entreemcontato .formulario .inputs {
+    display: flex;
+    flex-direction: column; /* Alinha os inputs em coluna */
+    gap: 20px; 
+    width: 600px;/* Adiciona espaço vertical entre os inputs */
+    height: 300px;
+    border: #858484;
+    border-radius: 10px;
+    
+    
+}
+
+section.entreemcontato .formulario .inputs input {
+    flex: 40; /* Faz com que os inputs ocupem todo o espaço disponível */
+    margin-right: 60px; /* Aumenta o espaçamento entre os inputs */
 }
